@@ -1,0 +1,378 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  overflow: auto;
+}
+.clr {
+  clear: both;
+}
+.title {
+  margin: 40px;
+  text-align: center;
+}
+.title h2 {
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.title p {
+  font-size: 20px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.card {
+  padding: 15px;
+  width: 33.33%;
+  float: left;
+  box-sizing: border-box;
+}
+.layer {
+  padding: 20px;
+  min-height: 320px;
+  border-radius: 20px;
+}
+/* ###############-HERO-############### */
+#hero {
+  padding: 80px 0;
+}
+.hero_section {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #101828;
+  line-height: 75px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+p {
+  color: #4a5565;
+}
+.hero_content_P {
+  font-size: 20px;
+}
+.image {
+  padding: 0 20px;
+}
+.hero_image img {
+  width: 100%;
+  border-radius: 20px;
+}
+.btn {
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hero_but_1 {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  margin-right: 10px;
+}
+.hero_but_2 {
+  border: solid 2px #d1d5dc;
+  background-color: #fff;
+  color: #364153;
+}
+/* ###############-HERO-############### */
+/* ###############-why-choose-us-############### */
+#why-choose-us {
+  padding: 80px 0;
+}
+
+#why-choose-us .card .layer {
+  text-align: center;
+}
+#why-choose-us .card .layer-1 {
+  background-color: #dbeafe;
+  border: 1px solid #bedbff;
+}
+.layer-2 {
+  background-color: #d0fae5;
+  border: 1px solid #a4f4cf;
+}
+.layer-3 {
+  background-color: #f3e8ff;
+  border: 1px solid #e9d4ff;
+}
+#why-choose-us .card .layer .simple {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+#why-choose-us .card .layer-1 .simple {
+  border: 15px solid #155dfc;
+}
+#why-choose-us .card .layer-3 .simple {
+  border: 15px solid #9810fa;
+}
+
+#why-choose-us .card .layer-2 .simple {
+  border: 15px solid #009966;
+  background-color: #009966;
+  border-radius: 15px;
+  position: relative;
+}
+#why-choose-us .card .layer-2 .simple .box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  background-color: #fff;
+}
+#why-choose-us .card .layer h3 {
+  padding: 15px 0;
+}
+#why-choose-us .card .layer p {
+  font-size: 14px;
+}
+.more-benefist {
+  margin: 50px 0;
+}
+#why-choose-us .image img {
+  width: 100%;
+  border-radius: 20px;
+}
+.choose-flot {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.contente h2 {
+  font-size: 30px;
+  padding-left: 30px;
+}
+.contente h4 {
+  font-size: 20px;
+  color: #101828;
+}
+.info {
+  margin: 15px 0 15px 30px;
+  padding-left: 30px;
+  position: relative;
+}
+.info::after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* ###############-why-choose-us-############### */
+/* ###############-testimonials-############### */
+#testimonials {
+  padding: 80px 0;
+  background-color: #f9fafb;
+}
+
+.layer-1 {
+  border: 1px solid #bedbff;
+  background-color: #eff6ff;
+}
+.layer-2 {
+  border: 1px solid #a4f4cf;
+  background-color: #ecfdf5;
+}
+.layer-3 {
+  border: 1px solid #e9d4ff;
+  background-color: #faf5ff;
+}
+.pars-img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.pars-data {
+  width: 60%;
+}
+.pars-img img {
+  width: 100%;
+}
+.flo {
+  float: left;
+  margin: 5px;
+  box-sizing: border-box;
+}
+.reviews {
+  margin: 20px 5px;
+}
+.statistics {
+  background-color: #f1f5f9;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  margin: 20px;
+  padding: 40px;
+}
+.stat {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.bold {
+  color: #000;
+  font-weight: bold;
+  font-size: 36px;
+}
+/* ###############-testimonials-############### */
+/* ###############-membership-form-############### */
+#membership-form {
+  padding: 80px 0;
+}
+.form {
+  background-color: #f9fafb;
+  padding: 60px;
+  border-radius: 20px;
+}
+.input-style {
+  background-color: #f9fafb;
+  padding: 20px 15px;
+  margin: 15px 0 30px 0;
+  border-radius: 10px;
+  border: 1px solid #d1d5dc;
+  font-size: 18px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.left-inp {
+  width: 48%;
+  float: left;
+}
+.right-inp {
+  width: 48%;
+  float: left;
+  margin-left: 4%;
+}
+.btn-member {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.p-form {
+  text-align: center;
+  font-size: 14px;
+}
+/* ###############-membership-form-############### */
+/* ###############-footer-############### */
+#footer {
+  background-color: #101828;
+  padding: 60px 0;
+}
+
+.content {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #99a1af;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.cont-flot {
+  float: left;
+}
+.FitCore {
+  width: 50%;
+}
+.FitCore h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0;
+}
+.FitCore p {
+  font-size: 18px;
+  color: #99a1af;
+  margin: 20px 0;
+}
+.FitCore .links a {
+  color: #99a1af;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.Quick-Links {
+  width: 25%;
+}
+.Quick-Links h4 {
+  font-size: 20px;
+  color: #fff;
+  margin: 15px 0;
+}
+.Quick-Links .link {
+  margin: 15px 0;
+}
+.Quick-Links a {
+  color: #99a1af;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+.Contact-Info {
+  width: 25%;
+}
+.Contact-Info h4 {
+  font-size: 20px;
+  color: #fff;
+  margin: 15px 0;
+}
+.Contact-Info h5 {
+  font-size: 16px;
+  color: #fff;
+  margin: 5px 0;
+}
+.Contact-Info p {
+  color: #99a1af;
+  margin-bottom: 15px;
+}
+.cont-flot a {
+  color: #99a1af;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+.copy-right p {
+  font-size: 14px;
+  color: #6a7282;
+}
+.copy-right-flot {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.right a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #6a7282;
+}
+
+.a-1 {
+  padding: 20px;
+}
+/* ########################################## */
